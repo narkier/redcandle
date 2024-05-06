@@ -13,7 +13,7 @@
         button {
             background-color: black;
             color: white;
-            border: 2px solid blue;
+            border: 2px solid black;
             border-radius: 8px;
             width: 400px;
             height: 100px !important;
@@ -89,71 +89,13 @@
     margin-bottom: 100px; /* Adds space below the image before the crawl starts */
 }
 
-.star-wars {
-    display: flex;
-    justify-content: center;
-    position: relative;
-    height: 800px; /* Adjust height as necessary */
-    z-index: 1; /* Lower than the image to keep the crawl below it */
-    overflow: hidden; /* Ensures no part of the crawl spills outside its container */
-    color: #feda4a;
-    font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 500%; /* Your existing font size */
-    letter-spacing: 6px; /* Your existing letter spacing */
-    line-height: 150%; /* Your existing line height */
-    perspective: 400px; /* Your existing perspective */
-}
 
-.crawl {
-    position: relative;
-    top: 0; /* Start from the top of its container */
-    transform-origin: 50% 100%;
-    animation: crawl 60s linear;
-}
-
-.crawl > .title {
-  font-size: 90%;
-  text-align: center;
-}
-
-.crawl > .title h1 {
-  margin: 0 0 100px;
-  text-transform: uppercase;
-}
-
-@keyframes crawl {
-  0% {
-    top: -100px;
-    transform: rotateX(20deg)  translateZ(0);
-  }
-  100% { 
-    top: -6000px;
-    transform: rotateX(25deg) translateZ(-2500px);
-  }
-}
     </style>
 
     </head>
     <body>
-        <header id="head">
-            <a href="https://t.me/+FFzpjCCnSMFmNDVi" style="text-decoration: none;"><button>Telegram</button></a>
-            <a href="https://twitter.com/jurjurbunks" style="text-decoration: none;"><button>Twitter</button></a>
-            <a href="https://yourPumpLink.com" style="text-decoration: none;"><button>Pump</button></a>
-        </header>
-        <img src="size.png">
-        <section class="star-wars">
-            <div class="crawl">
-              <div class="title">
-                <p>Episode 69</p>
-                <h1>A New Hoe</h1>
-              </div>
-              
-              <p>C-3PO, often referred to as Threepio, is a protocol droid designed to serve human beings, and boasts that he is fluent in over six million forms of communication. Unique in his well-polished golden plating and his quirky, fearful personality, Threepio was created by the heroic Jedi Anakin Skywalker, and has a long history involving some of the galaxy’s most pivotal moments.</p>
-
-  <p>Over the years, C-3PO has often found himself in the service of important figures throughout the galaxy and played a vital role in pivotal galactic events, navigating the galaxy alongside his counterpart, R2-D2. Threepio's adventures have led him from the sands of Tatooine to the forests of Endor, from diplomatic missions on Coruscant to rogue missions on Jakku. Fearful and proud, Threepio continually finds himself in the midst of trouble, often providing comic relief with his worrying and fussing yet proving to be an essential ally in the Rebel Alliance's struggle against the Empire.</p>
+        <p>
             
-  <p>Despite his tendency to be anxious and somewhat overly cautious, C-3PO has shown remarkable courage and loyalty to his friends. He often plays a crucial role in communication and diplomacy, translating languages and customs that bridge the gap between different cultures and species. His encyclopedic knowledge and attention to protocol have made him a valuable asset in negotiations that often involve delicate stakes. Though he may not be adventurous by nature, Threepio’s commitment to his companions and the causes he finds himself part of is unwavering, often placing himself in situations that are far beyond his comfort zone.</p>
-              </div>
-          </section>
+        </p>
     </body>
 </html>
